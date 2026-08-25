@@ -1,0 +1,37 @@
+# Secrets and local configuration
+.env
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+labenv/
+
+# Python caches and build output
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+dist/
+
+# Foundry and Azure local state
+.azure/
+.foundry/results/
+
+# IDE and operating-system files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs and temporary output
+*.log
+*.tmp
+output.txt
+analysis_results.json
